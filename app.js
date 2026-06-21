@@ -289,6 +289,8 @@ game.catchPokemon = function (pokemonObj) {
     game.party.push(pokemonObj)
 }
 
+game.catchPokemon(pokemon[30])
+
 /*
 Exercise 11
 1. Copy the `catchPokemon` method that you just wrote above, and paste it below. Modify it so that it also decreases the number of pokeballs in your inventory each time you catch a Pokémon.
